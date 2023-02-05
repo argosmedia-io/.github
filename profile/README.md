@@ -8,20 +8,14 @@ We are building a solution that enables users to host their own image processing
 
 We are using a microservices-based architecture, where each component of the image processing stack is separated into its own service. This allows us to update, scale, and maintain each component independently, ensuring high availability and performance.
 
-We are leveraging state-of-the-art technologies such as Docker, Kubernetes, and OpenCV to build our solution. The API will be built using a modern web framework, such as Flask or Django, and exposed to users through a scalable API gateway.
-Features
+We are leveraging state-of-the-art technologies such as Docker, Kubernetes, and Libvips to build our solution. The API is built using rust and exposed to users through a scalable API gateway.
 
-### Easy setup and deployment
-Our solution will be designed to be easy to set up and deploy, with minimal required technical expertise.
-    
-### Customizable processing pipeline 
-Users will be able to configure the processing pipeline to their specific needs, allowing them to add or remove steps as needed.
-    
-### High performance
-By using optimized algorithms and leveraging the power of Kubernetes and Docker, our solution will provide fast and efficient image processing.
-    
-### Cost-effective
-By hosting the image processing stack on their own infrastructure, users can save on costs associated with using third-party services.
+## Features
+
+- Easy setup and deployment    
+- Customizable processing pipeline     
+- High performance    
+- Cost-effective
 
 ## Contribution
 
